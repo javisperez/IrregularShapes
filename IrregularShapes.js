@@ -131,7 +131,7 @@
         
         var degrees = {
             start: startAngle * 180 / Math.PI,
-            end: endAngle * 180 / Math.PI,
+            end: endAngle * 180 / Math.PI
         };
         
         var n = degrees.end - degrees.start;
