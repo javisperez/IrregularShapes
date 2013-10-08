@@ -58,6 +58,7 @@ Javascript
 
 HTML
 <pre>
+    <script src="IrregularShapes.js"></script>
     <canvas id="canvas" width="800" height="800"></canvas>
 </pre>
 
