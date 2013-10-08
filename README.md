@@ -64,8 +64,8 @@ HTML
 
 Demo
 ----
-[http://javisperez.com/experiments/05/](http://javisperez.com/experiments/05/)
-[http://codepen.io/javisperez/details/IfCAG](http://codepen.io/javisperez/details/IfCAG)
+- [http://javisperez.com/experiments/05/](http://javisperez.com/experiments/05/)
+- [http://codepen.io/javisperez/details/IfCAG](http://codepen.io/javisperez/details/IfCAG)
 
 Author
 ------
