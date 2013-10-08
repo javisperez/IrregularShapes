@@ -11,7 +11,7 @@ Methods
 * setContext(context)  
 Set the reference to the context to use.
 
-* setChunksize(float size)  
+* setChunkSize(float size)  
 Set the size of each "chunk" of path used to form the final shape.
 Expect any decimal value, the larger the value, the less CPU and memory usage, but less realistic looks.
 
@@ -65,6 +65,7 @@ HTML
 Demo
 ----
 [http://javisperez.com/experiments/05/](http://javisperez.com/experiments/05/)
+[http://codepen.io/javisperez/details/IfCAG](http://codepen.io/javisperez/details/IfCAG)
 
 Author
 ------
