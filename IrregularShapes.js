@@ -67,6 +67,8 @@
     // Also, some setters and getters
     IrregularShapes.prototype.setChunkSize = function(newSize) {
         this.CHUNK_SIZE = newSize;
+        this.X_DIRT = newSize * 0.17;
+        this.Y_DIRT = newSize * 0.17;
     };
     
     IrregularShapes.prototype.setNoise = function(noiseX, noiseY) {
@@ -235,16 +237,15 @@
         };
         
         var chunkes = Math.floor(Math.sqrt(Math.pow(distances.x,2) + Math.pow(distances.y, 2)) / this.CHUNK_SIZE);
-        
-        var chunksX = distances.x / chunkes;
-        var chunksY = distances.y / chunkes;
-        
+    
         var C1 = new this.coord(fromX, fromY);
         var C3 = new this.coord(p1X, p1Y);
         var C4 = new this.coord(p2X, p2Y);
         var C2 = new this.coord(endX, endY);
         
-        var i = 0;
+        var i = 1;
+    
+       chunkes--;
         
         while (i < chunkes) {
             
@@ -254,7 +255,7 @@
             pos.x += Math.random()*this.X_DIRT*2 - this.X_DIRT;
             pos.y += Math.random()*this.Y_DIRT*2 - this.Y_DIRT;
             
-            cx.lineTo(pos.x, pos.y);            
+            cx.lineTo(pos.x, pos.y);
             i++;
         }
         
