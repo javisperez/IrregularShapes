@@ -8,7 +8,7 @@ This is a library for canvas, to draw some geometric shapes, lines and curves in
 Demo
 ----
 - [http://javisperez.com/experiments/irregularshapes/](http://javisperez.com/experiments/irregularshapes/)
-- [http://codepen.io/javisperez/details/IfCAG](http://codepen.io/javisperez/details/IfCAG)
+- [https://codepen.io/javisperez/pen/IfCAG/](https://codepen.io/javisperez/pen/IfCAG/)
 
 Methods
 -------
