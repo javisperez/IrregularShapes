@@ -5,6 +5,11 @@ The irregular shapes library Github
 
 This is a library for canvas, to draw some geometric shapes, lines and curves in an "imperfect" way, some "hand drawn" styled.
 
+Demo
+----
+- [http://javisperez.com/experiments/irregularshapes/](http://javisperez.com/experiments/irregularshapes/)
+- [http://codepen.io/javisperez/details/IfCAG](http://codepen.io/javisperez/details/IfCAG)
+
 Methods
 -------
 
@@ -61,11 +66,6 @@ HTML
     <script src="IrregularShapes.js"></script>
     <canvas id="canvas" width="800" height="800"></canvas>
 </pre>
-
-Demo
-----
-- [http://javisperez.com/experiments/05/](http://javisperez.com/experiments/05/)
-- [http://codepen.io/javisperez/details/IfCAG](http://codepen.io/javisperez/details/IfCAG)
 
 Author
 ------
